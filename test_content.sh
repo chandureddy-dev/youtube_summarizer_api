@@ -18,6 +18,7 @@ PORT=${PORT:-8080}
 url=${1:-'http://localhost:'$PORT}
 token=${2:-''}
 expected='you successfully deployed a container image to Cloud Run'
+expected='YouTube Video Summarizer'
 retries=10
 interval=5
 
