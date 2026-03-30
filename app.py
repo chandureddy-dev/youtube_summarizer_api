@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect
 import google.generativeai as genai
 
 # Configure Gemini API
-API_KEY = "EPLACE THIS WITH YOUR API KEY"  # REPLACE THIS WITH YOUR API KEY
+API_KEY = "REPLACE THIS WITH YOUR API KEY"  # REPLACE THIS WITH YOUR API KEY
 genai.configure(api_key=API_KEY)
 
 app = Flask(__name__)
